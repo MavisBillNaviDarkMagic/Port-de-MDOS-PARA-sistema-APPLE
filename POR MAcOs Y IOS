@@ -1,0 +1,17 @@
+import SwiftUI
+
+@main
+struct MDOSApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
+struct ContentView: View {
+    var body: some View {
+        Text("MDOS iOS")
+            .padding()
+    }
+}
